@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.titleContainer {
+  position: relative;
+  top: 45px;
+}
+
+.shapeContainer {
+  width: 250px;
+}
+
+.descriptionContainer {
+  position: relative;
+  bottom: 190px;
+}

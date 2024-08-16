@@ -1,0 +1,109 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ebe1e1ad;
+}
+
+.titleContainer {
+  width: 100vw;
+  height: 65px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  margin: 5px 0px 25px 0px;
+  align-items: flex-start;
+  font-size: 30px;
+}
+
+.titleDescription {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+  font-style: oblique;
+}
+
+.participantsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 53px 0px 0px 0px;
+}
+
+.participantsItem {
+  margin: 0px 38px 0px 0px;
+}
+
+.participantsTitle {
+}
+
+.participantsDescriptionContainer {
+}
+
+.name {
+}
+
+.description {
+}
+
+.footerContainer {
+  background-color: #bbbbbb;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.linksContainer {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 0 0 30%;
+  margin: 0px 0px 0px calc(5%);
+}
+
+.links {
+  margin: 0px 0px 3px 0px;
+  cursor: pointer;
+}
+
+.links:hover {
+  color: white;
+}
+
+.conditionsContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 0 0 30%;
+  height: 122px;
+}
+
+.condition {
+  margin: 0px 0px 3px 0px;
+  cursor: pointer;
+}
+
+.condition:hover {
+  color: white;
+}

@@ -1,0 +1,63 @@
+.container {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #ebe1e1ad;
+}
+
+.howItWorksContainer {
+  margin: calc(5vh) 0px 0px 30px;
+  width: 60vw;
+  border-style: dashed;
+  border-width: 2px;
+  height: 40vh;
+  border-top-right-radius: 29px;
+  border-top-left-radius: 29px;
+  background-color: wheat;
+}
+
+.howItWorksTitle {
+  border-bottom-style: solid;
+  border-width: 1px;
+  margin: 5px 0px 15px 0px;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.howItWorksContent {
+  margin: 0px 0px 0px 15px;
+}
+
+.whatWeOfferContainer {
+  margin: calc(5vh) 0px 0px calc(30vw);
+  width: 60vw;
+  border-style: dashed;
+  border-width: 2px;
+  height: 40vh;
+  border-bottom-right-radius: 29px;
+  border-bottom-left-radius: 29px;
+  background-color: wheat;
+}
+
+.whatWeOfferTitle {
+  border-bottom-style: solid;
+  border-width: 1px;
+  margin: 5px 0px 15px 0px;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.whatWeOfferContent {
+  margin: 0px 0px 0px 15px;
+}
